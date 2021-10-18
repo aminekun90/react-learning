@@ -1,3 +1,4 @@
+import classes from "./Modal.module.css";
 function Modal(props) {
   function cancelHandler() {
     props.onCancel();
@@ -6,7 +7,7 @@ function Modal(props) {
     props.onConfirm();
   }
   return (
-    <div className="modal">
+    <div className={classes.modal}>
       <p>Are you sure ?</p>
       <button className="btn btn-default" onClick={cancelHandler}>
         Cancel

@@ -1,5 +1,4 @@
 import Todo from "../component/my-todos/Todo";
-import "./MyToDos.css";
 
 function MyToDosPage(params) {
   return (

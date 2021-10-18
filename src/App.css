@@ -1,0 +1,27 @@
+.btn {
+  color: #fff;
+  margin-right: 10px;
+  border: 1px solid #d62c1a;
+  border-radius: 3px;
+  outline: 0;
+  cursor: pointer;
+  -moz-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #e74c3c;
+  padding: 7.5px 30px 7.5px 30px;
+  font-size: 1em;
+}
+.btn:hover {
+  background-color: #d62c1a;
+}
+
+.btn-default {
+  background-color: white;
+  color: #d62c1a;
+}
+.btn-default:hover {
+  background-color: #d62d1a38;
+}
